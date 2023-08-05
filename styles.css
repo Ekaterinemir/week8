@@ -1,0 +1,103 @@
+/* Style the website you made last week using CSS with the following requirements:
+Use only external CSS file (no internal or inline styling)
+Every element must be styled.
+Create style rules using class, id, and element selectors.
+ */
+
+/*I changed the font size and color with element selector*/
+
+div {
+   font-size: 20px;
+   color: blue;
+}
+
+/*I changed color of the header h1 and h3 with element selector*/
+h1 {
+    color: goldenrod;
+}
+
+h3 {
+    color: goldenrod;
+}
+ 
+/* I changed color and font name of h5 header using the element selector again*/
+h5 {
+   color: blue;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+/*I used class selector to style h3 header*/
+
+.title {
+    font-style: oblique;
+    font-size: 8mp;
+    color: goldenrod;
+}
+
+/*I used element selector to style images.*/
+img {
+    width: 300px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 3px 3 px 5 px gray;
+}
+ /*styled h3 header using the class selector. */
+.title {
+    font-style: oblique;
+    font-size: 8mp;
+    color: goldenrod;
+}
+/*I used element selector to style paragraph with color and font-name*/
+p {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* I used class selector and changed backgroun-color*/
+
+.every-even li:nth-child(even){
+    background-color: aqua;
+
+}
+/* I used element selector to style header h4. */
+h4 {
+    color: turquoise;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+/* I styled table header and table data together, using element selector*/
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even){
+    background-color: turquoise;
+}
+/*I used element selector to style form */
+form{
+    width: 300;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ input, button{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    border-radius: 5px; 
+} 
+
+/* I used ID selector to style button. */
+#button {
+    color:blue;
+    background-color: aquamarine;
+    border: 1px solid blue;
+    border-radius: 5px;
+} 
